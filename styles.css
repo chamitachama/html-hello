@@ -1,0 +1,94 @@
+html{
+    height: 100%;
+}
+body{
+    background-color: rgb(209, 209, 209);
+    height: 100%;
+    margin: 0;
+}
+.contentwrapper{
+    margin-bottom: 10px;
+
+}
+.header{
+    font-family: "Open Sans";
+    height: 80px;
+    background-color: white;
+    margin: 0;
+    width: 100%;
+    text-align: center;
+}
+.content{
+    height: 100%;
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 20px;
+    border-bottom: 1px solid gray;
+
+}
+
+.post1{
+    width: 100%;
+    height: fit-content;
+    background-color: rgba(214, 155, 155, 0);
+    display: block;
+    margin-bottom: 30px;
+    border-radius: 10px;
+    overflow: auto;
+}
+.postheader{
+    background-color: white;
+    height: 40px;
+    align-content: center;
+    padding: 10px;
+}
+.postfooter{
+    background-color: white;
+    display: block;
+    align-items: center;
+    padding: 20px;
+    
+}
+.image{
+    width:100%;
+    margin: 0;
+    display: flex;
+
+}
+
+p{
+    margin: 0;
+    font-family: "Open Sans";
+    font-size: small;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+h1{
+    margin: 0;
+    display: block;
+    padding: 18px;
+}
+h3{
+    float: left;
+    font-size: medium;
+}
+
+h4{
+    float: right;
+    color: gray;
+    font-weight: 300;
+    font-size: small;
+}
+
+h3, h4{
+    margin: 0;
+    font-family: "Open Sans";
+}
+
+ /* *{
+    border: 1px dashed red;
+}  */
