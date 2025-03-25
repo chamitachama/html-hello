@@ -1,0 +1,104 @@
+/* * {
+    border: 1px dashed red
+} */
+
+
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    font-family: 'roboto';
+}
+.container{
+    height: 100%;
+    max-width: 600px;
+    min-width: 300px;
+}
+
+.post {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.postheader{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    padding: 8px;
+
+}
+.headertext{
+    padding: 8px;
+}
+
+.header-elements {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+}
+.avatar-text{
+    display: flex;
+    height: 70px;
+}
+caption{
+    font-size: xx-small;
+}
+
+
+.image {
+   border-radius: 100px; 
+}
+
+.post-footer{
+    padding: 12px;
+
+}
+.icons{
+    font-size: 28px;
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0px;
+}
+.fa-ellipsis-vertical{
+    padding: 8px 8px;
+}
+.fa-regular{
+    font-size: 26px;
+    margin: 0px 4px 0px 0px;
+}
+.fa-heart{
+    font-size: 28px;
+    
+}
+.fa-heart:hover {
+
+    font-size: 29px;
+}
+.fa-solid{
+    font-size: 26px;
+}
+kbr {
+    background-color: gainsboro;
+    padding:4px;
+    border-bottom: solid 1px black;
+}
+
+abbr {
+    position: relative;
+}
+
+abbr:hover::after {
+    position: absolute;
+    bottom: 100%;
+    display: block;
+    padding: 1em;
+    background: white;
+    
+    content: attr(title);
+    
+}
